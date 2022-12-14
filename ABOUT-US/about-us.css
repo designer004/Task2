@@ -1,0 +1,28 @@
+.navbar {
+    border-bottom: 30px solid #e0171a;
+    padding: .7em;
+    background-color: #e0171a; 
+}
+
+.navbar{
+    font-family: Dream MMA;
+    font-size : 36px;
+    text-align: center;
+}
+
+body{
+    font-family: Myriad Pro;
+    line-height: 1.0;
+    margin:0;
+    background-color: #363636
+}
+
+.blog{
+    border: solid #e0171a;
+}
+
+.paragraph{
+    font-size: 26px;
+    font-family: Myriad Pro;
+    font-weight: 3em;
+}
