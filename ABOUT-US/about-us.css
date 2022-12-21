@@ -24,5 +24,6 @@ body{
 .paragraph{
     font-size: 26px;
     font-family: Myriad Pro;
-    font-weight: 3em;
+    font-weight: 2em;
+    color: rgb(230, 230, 230); 
 }

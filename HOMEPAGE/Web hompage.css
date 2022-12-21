@@ -1,6 +1,22 @@
 .side-bar{
     font-family: myriad Pro;
-    border: 5px solid#e0171a;
+    border: 4px solid#e0171a;
+
+}
+
+.blog-sidebar h4 {
+    text-transform: uppercase;
+    margin: 1em 0 .25em;
+}
+
+.blog-sidebar p {
+    margin: 1;
+}
+
+.col-5{
+    font-family: Myriad Pro;
+    font-size : 15px;
+    color: rgb(230, 230, 230);
 }
 
 .navbar{
@@ -24,10 +40,17 @@ body{
 .jumbotron {
     background-image: url(images/mon2.jpg);
     background-repeat: no-repeat;
+    margin-top: 3em;
+    image-resolution:inherit ;
     background-size: cover;
     background-position: center;
     height: 30em;
     margin-bottom: 3em;
     position: relative;
     border: 5px solid#e0171a;
+}
+
+.button:hover {
+    background-color: #f70e0a;
+    color: #efefef;
 }
