@@ -16,3 +16,8 @@ body{
     margin:0;
     background-color: #363636
 }
+
+
+.col-4{
+    width: 10px; height: 10px;
+}
