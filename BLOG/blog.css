@@ -16,3 +16,18 @@ body{
     margin:0;
     background-color: #363636
 }
+
+.col-4{
+    border: 5px solid #e0171a;
+    
+}
+
+.col-8{
+    border: 5px solid #e0171a;
+    
+}
+
+.col-12{
+    border: 5px solid #e0171a;
+    
+}
