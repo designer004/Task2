@@ -10,27 +10,24 @@
     text-align: center;
 }
 
+.jumbotron{
+    background-image: url(images/mon2copy.jpg);
+}
+
 body{
     font-family: Myriad Pro;
     line-height: 1.0;
     margin:0;
     background-color: #363636
 }
+s
 
-.col-4{
-    border: 5px solid #e0171a;
-    width: 250px;  height: 350px;
-    border-radius: 5px;
+.photos img {
+    width: 100%;
 }
 
-.col-8{
-    border: 5px solid #e0171a;
-    width: 250px;  height: 350px;
-    border-radius: 5px;
-}
-
-.col-12{
-    border: 5px solid #e0171a;
-    width: 250px;  height: 350px;
-    border-radius: 5px;
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:20px
 }
