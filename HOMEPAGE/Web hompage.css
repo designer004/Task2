@@ -39,7 +39,7 @@ body{
 }
 
 .jumbotron {
-    background-image: url(images/mon2.jpg);
+    background-image: url(assets/mon2.jpg);
     background-repeat: no-repeat;
     margin-top: 3em;
     image-resolution:inherit ;
@@ -55,5 +55,7 @@ body{
     background-color: #e1e1e1;
     color: #efefef;
 }
+
+
 
 

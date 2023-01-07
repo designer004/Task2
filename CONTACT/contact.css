@@ -25,11 +25,23 @@ body{
 
 
 .jumbotron{
-    background-image: url(images/em.jpg);
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
     background-size:contain;
     background-position:right;
     margin-top: 4em;
     height: 5em;
 }
+
+.contact-form :invalid{
+    border-color:rgb(24, 24, 24);
+    color: rgb(253, 0, 0);
+}
+
+.col-12 {
+    border: #4c0001;
+    background-color: #e0171a;
+    margin-bottom: 1em;
+
+}
+
 
