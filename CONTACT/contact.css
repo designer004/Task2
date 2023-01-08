@@ -34,7 +34,7 @@ body{
 
 .contact-form :invalid{
     border-color:rgb(24, 24, 24);
-    color: rgb(253, 0, 0);
+    color: rgb(5, 5, 5);
 }
 
 .col-12 {
@@ -44,4 +44,36 @@ body{
 
 }
 
+.contact-form .button{
+    cursor: pointer;
+    padding: 1em;
+}
 
+.contact-form .clear{
+    background-color: #ff4a4a;
+    border: 5px solid #000000;
+    
+}
+
+.contact-form :invalid{
+    border-color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.contact-form :invalid::placeholder{
+    color: rgb(255, 0, 0);
+}
+
+.button {
+    background-color: #46ff09;
+    color: #0e0e0e;
+    padding: .5em;
+    padding-left: .7em;
+    padding-right: .7em;
+    border: 5px solid#000000;
+}
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    size: 10px;
+}
