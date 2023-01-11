@@ -32,6 +32,8 @@ body{
 .photos{
     display: grid;
     grid-template-rows: 0.15fr 0.15fr 0.15fr;
+    background-color: rgb(255, 254, 254);
+    text-align: center;
     row-gap: 10px;
 }
 
