@@ -20,7 +20,7 @@ body{
 
 .text{
     font-family: Myriad Pro;
-    font-size: 50px;
+    font-size: 25px;
     color: aliceblue;
 }
 
@@ -33,4 +33,10 @@ body{
 
 .button{
     text-transform: capitalize;
+}
+
+.photos img{
+    width: 15%;
+    border: 5px solid #e0171a;
+    border-radius: 500px;
 }

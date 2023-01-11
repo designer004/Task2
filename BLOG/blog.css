@@ -10,9 +10,6 @@
     text-align: center;
 }
 
-.jumbotron{
-    background-image: url(images/mon2copy.jpg);
-}
 
 body{
     font-family: Myriad Pro;
@@ -20,7 +17,7 @@ body{
     margin:0;
     background-color: #363636
 }
-s
+
 
 .photos img {
     width: 100%;
@@ -30,4 +27,23 @@ s
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap:20px
+}
+
+.photos{
+    display: grid;
+    grid-template-rows: 0.10fr 0.10fr 0.10fr;
+    row-gap: 10px;
+}
+
+.photos{
+    border: 0.5em solid #e0171a;
+    border-radius: 10px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 10px;
+}
+
+.photos{
+    font-family: Myriad Pro;
+    text-align: center;
+    -webkit-text-fill-color: rgb(0, 0, 0);
 }

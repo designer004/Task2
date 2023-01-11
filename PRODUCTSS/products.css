@@ -19,10 +19,23 @@ body{
 
 .photos img {
     width: 100%;
+    
 }
 
 .photos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap:20px
+    
+}
+
+.photos{
+    display: grid;
+    grid-template-rows: 0.15fr 0.15fr 0.15fr;
+    row-gap: 10px;
+}
+
+.photos{
+    border: 0.5em solid #e0171a;
+    
 }
