@@ -6,7 +6,7 @@
     border-radius: 20px;
 }
 
-.blog-sidebar h4 {
+.blog-sidebar  {
     text-transform: uppercase;
     margin: 1em 0 .25em;
 }
@@ -38,7 +38,7 @@
     width: 1000px;
     background-color: rgb(255, 0, 0);
     font-size: 25px;
-    
+    margin-left: 50px;
 }
 
 .col-5{
@@ -51,6 +51,7 @@
     font-family: Myriad Pro;
     font-size : 36px;
     color: rgb(230, 230, 230);
+    margin: auto;
 }
 
 .contact-form .button{
@@ -73,6 +74,14 @@
 
 .contact-form :invalid::placeholder{
     color: rgb(255, 0, 0);
+}
+
+.navbar-MMA {
+    font-family: Dream MMA;
+    font-size : 40px;
+    text-align: center;
+    padding: .7em;
+    background-color: #e0171a; 
 }
 
 .navbar {
@@ -115,7 +124,7 @@
 }
 
 
-body{
+.body-home{
     font-family: myriad Pro;
     line-height: 1.0;
     margin: 0;
@@ -123,7 +132,7 @@ body{
 }
 
 .jumbotron {
-    background-image: url(..//images/mon6.jpg);
+    background-image: url(images/mon6.jpg);
     background-repeat: no-repeat;
     margin-top: 3em;
     image-resolution:inherit ;
@@ -140,7 +149,7 @@ body{
     border-radius:20px;
     background-color: #49172a;
 }
-.button a {
+.button  {
     color: #ffffff;
     text-decoration: none;
 }
@@ -209,6 +218,7 @@ body{
     font-family: Myriad Pro;
     font-weight: 2em;
     color: rgb(230, 230, 230); 
+    margin: 50px;
 }
 
 
@@ -223,7 +233,7 @@ body{
     border: 0.5em solid #e0171a;
     border-radius: 100%;
     overflow: hidden;
-    width: 5em;
+    width: 15em;
 }
 .logo img {
     width: 100%;
