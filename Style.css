@@ -1,0 +1,240 @@
+.blog-sidebar{
+    font-family: myriad Pro;
+    border: 4px solid#e0171a;
+    -webkit-text-fill-color: rgb(249, 244, 244);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.blog-sidebar  {
+    text-transform: uppercase;
+    margin: 1em 0 .25em;
+}
+
+.blog-sidebar p {
+    margin: 1;
+}
+
+.contact-form :invalid::placeholder{
+    color: rgb(255, 0, 0);
+}
+
+.button.submit {
+    background-color: #46ff09;
+    color: #0e0e0e;
+    padding: .5em;
+    padding-left: .7em;
+    padding-right: .7em;
+    border: 5px solid#000000;
+}
+.button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    size: 10px;
+}
+
+.button{
+    border-color: 30px solid #e0171a;
+    width: 1000px;
+    background-color: rgb(255, 0, 0);
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.col-5{
+    font-family: Myriad Pro;
+    font-size : 15px;
+    color: rgb(10, 10, 10);
+}
+
+.col-12{
+    font-family: Myriad Pro;
+    font-size : 36px;
+    color: rgb(230, 230, 230);
+    margin: auto;
+}
+
+.contact-form .button{
+    cursor: pointer;
+    padding: 1em;
+    width: auto;
+}
+
+.contact-form .clear{
+    background-color: #ff4a4a;
+    border: 5px solid #000000;
+    
+}
+
+
+.contact-form :invalid{
+    border-color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.contact-form :invalid::placeholder{
+    color: rgb(255, 0, 0);
+}
+
+.navbar-MMA {
+    font-family: Dream MMA;
+    font-size : 40px;
+    text-align: center;
+    padding: .7em;
+    background-color: #e0171a; 
+}
+
+.navbar {
+    border-bottom: 30px solid #e0171a;
+    padding: .7em;
+    background-color: #e0171a; 
+    font-family: Dream MMA;
+    font-size : 36px;
+    text-align: center;
+}
+
+.navbar-MMA .logo{
+    font-family: Dream MMA;
+    font-size : 40px;
+    text-align: center;
+    padding: .7em;
+    background-color: #e0171a; 
+}
+
+.navbar-top{
+    border-bottom: 30px solid #e0171a;
+    padding: .7em;
+    background-color: #e0171a; 
+}
+
+.navbar-fonts{
+    font-family: Dream MMA;
+    font-size : 36px;
+    text-align: center;
+}
+
+.navbar .logo {
+    border: 5px solid #e0171a;
+    border-radius: 100%;
+    height: 140px;
+    margin-top: -10px;
+    position: absolute;
+    display: block;
+    z-index: 10;
+}
+
+
+.body-home{
+    font-family: myriad Pro;
+    line-height: 1.0;
+    margin: 0;
+    background-color: #363636
+}
+
+.jumbotron {
+    background-image: url(images/mon6.jpg);
+    background-repeat: no-repeat;
+    margin-top: 3em;
+    image-resolution:inherit ;
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+    margin-bottom: 3em;
+    position: relative;
+    border: 5px solid#e0171a;
+    border-radius: 100px;
+}
+
+.button {
+    border-radius:20px;
+    background-color: #49172a;
+}
+.button  {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.button{
+    text-transform: capitalize;
+}
+
+.photos img {
+    width: 100%;
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:20px
+}
+
+.photos{
+    display: grid;
+    grid-template-rows: 0.10fr 0.10fr 0.10fr;
+    row-gap: 10px;
+}
+
+.photos{
+    border: 0.5em solid #e0171a;
+    background-color: rgb(255, 254, 254);
+}
+
+.photos{
+    font-family: Myriad Pro;
+    text-align: center;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+}
+
+
+
+.photos img {
+    width: 100%;
+    
+}
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:20px
+    
+}
+
+.photos{
+    display: grid;
+    grid-template-rows: 0.15fr 0.15fr 0.15fr;
+    background-color: rgb(255, 254, 254);
+    text-align: center;
+    row-gap: 10px;
+}
+
+.photos{
+    border: 0.5em solid #e0171a;
+    
+}
+
+.paragraph{
+    font-size: 26px;
+    font-family: Myriad Pro;
+    font-weight: 2em;
+    color: rgb(230, 230, 230); 
+    margin: 50px;
+}
+
+
+.text{
+    font-family: Myriad Pro;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.logo {
+    background-color: #fff;
+    border: 0.5em solid #e0171a;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 15em;
+}
+.logo img {
+    width: 100%;
+}
